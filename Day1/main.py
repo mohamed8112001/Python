@@ -107,4 +107,39 @@
 # print(str.count("iti") )
 
 
-    
+
+
+# tuple use to store collection of immutable elements
+# diffferent datatype
+# #Packing ==> set more values in one variable(list or tuple)
+# mixed = (1,'mohamed',True,3.14)
+# # datatype => tuple => the element store in ()
+# print(type(mixed))
+
+# print(mixed)
+# for item in mixed:
+#     print(item)
+
+# print(mixed[0])
+# mixed[0] = 10 => error because tuple not modifie
+
+# mixed_list = list(mixed)
+# print(mixed_list)
+# # datatype => list => and the data store in [] 
+# print(type(mixed_list))
+# print(mixed_list[1])
+# # can modifie any item of list 
+# mixed_list[1]="mustafa" 
+# print(mixed_list[1])
+
+
+# # UnPacking ==> export the value from list or tuple and set in more variable
+# # set the value from tuple or list
+# person=["mohamed","mustafa",23]
+# f_name,l_name,age=person
+
+# print(f_name)
+# print(l_name)
+# print(age)
+
+
