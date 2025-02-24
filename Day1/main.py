@@ -85,8 +85,26 @@
 
 # program 7
 
-def fun():
-    name = input("enter your name: ")
-    if isinstance(name,int) or (isinstance(name,str)and name.s:
+# def fun():
+#     name = input("enter your name: ")
+#     if name.isalpha:
+#         # name.isdigit() name.isalpha or name.strip() =="":
+#         print("not falid")
+       
+#     email = input("enter your email: ")
+
+#     print("Info For User : ")
+#     print(f"name of user :{name}")
+#     print(f"email of user :{email}")
+
+# fun()      
+
+
+# program 8
+
+# str = "iti ,lam in iti "
+
+# print(str.count("iti") )
+
 
     
