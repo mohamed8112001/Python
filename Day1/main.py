@@ -44,8 +44,9 @@
 
 # program 4
 
-# def fun():
-#     num = int(input("enter the number : "))
+# num = int(input("enter the number : "))
+
+# def fun(num):
 
 #     if ( num%3==0 and num%5==0 ):
 #         print("FizzBuzz")
@@ -54,19 +55,20 @@
 #     elif(num%3==0):
 #         print("Fizz")
         
-# fun()
+# fun(num)
 
 
 # proplem 5
 
-# def fun():
-#     str = input("enter the name : ")
+# str = input("enter the name : ")
+
+# def fun(str):
 #     str1 = str[::-1]
 #     print(str)
 #     print(str1)
 
 
-# fun()
+# fun(str)
 
 
 # proplem 6
@@ -84,20 +86,26 @@
 # fun()
 
 # program 7
+#regular expresion
+import re
 
-# def fun():
-#     name = input("enter your name: ")
-#     if name.isalpha:
-#         # name.isdigit() name.isalpha or name.strip() =="":
-#         print("not falid")
+def fun():
+    name = input("enter your name: ")
+    if not name.isalpha():
+        # name.isdigit() name.isalpha or name.strip() =="":
+        print("not falid")
        
-#     email = input("enter your email: ")
+    email = input("enter your email: ")
+    pattern = r'^[\w\.-]+@[\w\.-]+\.\w+$'
+    if not re.match(pattern,email):
+        print("Not valid: Please enter a valid email address.")
+        return
 
-#     print("Info For User : ")
-#     print(f"name of user :{name}")
-#     print(f"email of user :{email}")
+    print("Info For User : ")
+    print(f"name of user :{name}")
+    print(f"email of user :{email}")
 
-# fun()      
+fun()      
 
 
 # program 8
@@ -143,3 +151,12 @@
 # print(age)
 
 
+# str = "my name is {0}"
+# print(str.format('mohamed'))
+
+# myList = ['C', 'JavaScript', 'Python', 'Java', 'php']
+# print(myList.pop(4))
+
+# infoDict = {'track': 'OS', 'name': 'Ahmed', 'age': 17}
+# print(infoDict.keys())
+# print(infoDict.items())
