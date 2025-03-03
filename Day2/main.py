@@ -13,11 +13,16 @@
 
 # print(list)        
 
+str = input("enter string:")
+list=[]
+for i,name in enumerate(str):
+    if name == 'i':
+        list.append(i)
+print(list)        
 
 # program 2
 
 # # num = int(input("enter num of table: "))
-# list=[]
 # list1=[]
 # # n=1
 # for n in range(1,num+1):
